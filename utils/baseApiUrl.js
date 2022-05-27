@@ -1,5 +1,5 @@
 const baseApiUrl = process.env.NODE_ENV === "production" 
-? 'http://localhost:1337' 
+? 'https://obscure-castle-05229.herokuapp.com' 
 : 'http://localhost:1337';
 
 export default baseApiUrl;
